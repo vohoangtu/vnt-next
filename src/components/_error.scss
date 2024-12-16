@@ -1,0 +1,60 @@
+.error-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--bs-light) 0%, var(--bs-white) 100%);
+
+  .error-code {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--bs-primary);
+    margin: 0;
+    line-height: 1;
+    
+    @media (min-width: 768px) {
+      font-size: 6rem;
+    }
+  }
+
+  .error-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--bs-dark);
+    
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  .error-message {
+    font-size: 1rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media (min-width: 768px) {
+      font-size: 1.125rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    
+    @media (min-width: 768px) {
+      max-width: 400px;
+    }
+  }
+
+  .btn {
+    min-width: 120px;
+    padding: 0.625rem 1.25rem;
+    font-weight: 500;
+    
+    &.btn-primary {
+      box-shadow: 0 4px 6px rgba(var(--bs-primary-rgb), 0.2);
+      
+      &:hover {
+        box-shadow: 0 6px 8px rgba(var(--bs-primary-rgb), 0.3);
+      }
+    }
+  }
+}

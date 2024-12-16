@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <style>
+    .error-bg { fill: #f8f9fa; }
+    .error-detail { fill: #dee2e6; }
+    .error-main { fill: #dc3545; }
+    .error-accent { fill: #ea868f; }
+  </style>
+  <rect class="error-bg" width="500" height="500" rx="20"/>
+  <path class="error-detail" d="M141.5 155h-20a8.5 8.5 0 110-17h20a8.5 8.5 0 110 17zM385.5 155h-20a8.5 8.5 0 110-17h20a8.5 8.5 0 110 17z"/>
+  <path class="error-main" d="M250 350c-68.5 0-124-55.5-124-124s55.5-124 124-124 124 55.5 124 124-55.5 124-124 124zm0-231c-59.1 0-107 47.9-107 107s47.9 107 107 107 107-47.9 107-107-47.9-107-107-107z"/>
+  <path class="error-accent" d="M250 350c-68.5 0-124-55.5-124-124s55.5-124 124-124 124 55.5 124 124-55.5 124-124 124zm0-231c-59.1 0-107 47.9-107 107s47.9 107 107 107 107-47.9 107-107-47.9-107-107-107z"/>
+  <path class="error-main" d="M250 290c-35.2 0-63.8-28.6-63.8-63.8 0-4.4 3.6-8 8-8s8 3.6 8 8c0 26.4 21.4 47.8 47.8 47.8s47.8-21.4 47.8-47.8c0-4.4 3.6-8 8-8s8 3.6 8 8c0 35.2-28.6 63.8-63.8 63.8z"/>
+  <circle class="error-main" cx="201" cy="186" r="15"/>
+  <circle class="error-main" cx="299" cy="186" r="15"/>
+  <path class="error-accent" d="M250 330c-4.4 0-8-3.6-8-8v-40c0-4.4 3.6-8 8-8s8 3.6 8 8v40c0 4.4-3.6 8-8 8z"/>
+</svg>
